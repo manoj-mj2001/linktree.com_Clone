@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>Linktree*</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#" class="hover-link">Discover</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Learn</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+          <button class="login"><a href="login.html">Login</button></a>
+          <button class="signup"><a href="signup.html" class="sign">Sign up free</button></a>
+        </div>
+      </header>
+      <main>
+        <div class="content">
+          <h2>Everything you are.<br />In one, simple link in bio.</h2>
+          <p>
+            Join 50M+ people using Linktree for their link in bio. One link to
+            help you share everything you create, curate and sell from your
+            Instagram, TikTok, Twitter, YouTube and other social media profiles.
+          </p>
+          <div class="cta">
+            <input type="text" placeholder="linktr.ee/yourname" />
+            <button class="claim">Claim your Linktree</button>
+          </div>
+        </div>
+        <div class="preview card">
+          <img src="Screenshot (7).png" alt="Profile" class="profile" />
+          <img src="Screenshot (8).png" alt="Profile" class="profile" />
+          <img src="Screenshot (9).png" alt="Profile" class="profile" />
+          <img src="Screenshot (10).png" alt="Profile" class="profile" />
+          <img src="Screenshot (11).png" alt="Profile" class="profile" />
+          </div>
+        </div>
+      </main>
+
+     
+    </div>
+<div class="container2">
+    <div class="left-section">
+      <img src="Screenshot (14).png" alt="Sample" class="sample-image" />
+    </div>
+    <div class="right-section">
+      <h1>Create and customize your Linktree in minutes</h1>
+      <p>
+        Connect your TikTok, Instagram, Twitter, website, store, videos, music,
+        podcast, events and more. It all comes together in a link in bio landing
+        page designed to convert.
+      </p>
+      <a href="#" class="get-started-btn">Get started for free</a>
+    </div>
+  </div>
+
+  <div class="container2 container3">
+    <div class="right-section">
+        <h1>Share your Linktree from your Instagram, TikTok, Twitter and other bios</h1>
+        <p>Add your unique Linktree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online.</p>
+        <a href="#" class="get-started-btn">Get started for free</a>
+    </div>
+    <div class="left-section">
+        <img src="Screenshot (15).png" alt="Sample" class="sample-image">
+    </div>
+</div>
+
+<div class="container2 container4">
+  <div class="left-section">
+      <img src="Screenshot (16).png" alt="Stats Image" style="width: 60%;">
+  </div>
+  <div class="right-section">
+      <h1>Analyze your audience and keep your followers engaged</h1>
+      <p>Track your engagement over time, monitor revenue and learn what’s converting your audience. Make informed
+          updates on the fly to keep them coming back.</p>
+      <a href="#" class="get-started-btn">Get started for free</a>
+  </div>
+</div>
+
+<div class="faq-container">
+  <h1>Got questions?</h1>
+  <div class="accordion">
+      <div class="accordion-item">
+          <button class="accordion-button">Why do I need a link in bio tool?
+              <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+              <p>A link in bio tool allows you to share multiple links on platforms like Instagram, where only one link is allowed in the bio.</p>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <button class="accordion-button">Is Linktree the original link in bio tool?
+              <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+              <p>Linktree is one of the first and most popular link in bio tools, but there are now many other alternatives available.</p>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <button class="accordion-button">Can you get paid and sell things from a Linktree?
+              <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+              <p>Yes, Linktree allows you to add payment links, sell products, and accept donations directly from your bio.</p>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <button class="accordion-button">Is Linktree safe to use on all of my social media profiles?
+              <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+              <p>Linktree is safe to use and is compatible with all major social media platforms, including Instagram, TikTok, and more.</p>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <button class="accordion-button">What makes Linktree better than the other link in bio options?
+              <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+              <p>Linktree offers extensive customization options, analytics, and integrations, making it a robust choice for businesses and creators.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="cta-container">
+  <h1>Jumpstart your corner of the <br>internet today</h1>
+  <div class="cta-form">
+      <input type="text" class="cta-input" placeholder="linktr.ee/yourname">
+      <button class="cta-button">Claim your Linktree</button>
+  </div>
+
+
+    <script>
+      document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionItem = button.parentElement;
+
+        accordionItem.classList.toggle('active');
+
+        const accordionContent = button.nextElementSibling;
+        if (accordionItem.classList.contains('active')) {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+        } else {
+            accordionContent.style.maxHeight = 0;
+        }
+    });
+});
+
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("profile");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000);
+      }
+
+   </script>
+      
+  </body>
+</html>
