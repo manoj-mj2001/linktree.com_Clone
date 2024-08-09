@@ -190,7 +190,7 @@ main {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: #e0bee1;
+  background-color: #ef9aeffc;
 }
 
 .left-section {
@@ -280,6 +280,7 @@ main {
 }
 
 .faq-container {
+  margin-top: 40px;
   padding: 50px;
   width: 100%;
   text-align: center;
@@ -347,7 +348,7 @@ main {
 }
 
 .accordion-item.active .accordion-content {
-  max-height: 200px; /* Adjust as needed */
+  max-height: 200px;
 }
 
 .accordion-item.active .accordion-button .arrow {
@@ -394,9 +395,9 @@ main {
   padding: 15px 20px;
   font-size: 18px;
   border-radius: 50px;
-  width: 200px;
+  width: 210px;
   border: none;
-  background-color: #d3e10a; /* Bright yellow-green color for the button */
+  background-color: #d2e823;
   color: rgba(0, 0, 0, 0.827);
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -404,5 +405,121 @@ main {
 }
 
 .cta-button:hover {
-  background-color: #c2ce08; /* Slightly darker on hover */
+  background-color: #b5c72d;
+}
+
+.footer {
+  margin-top: 9%;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  color: #333333;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-buttons {
+  display: flex;
+  margin-left: 7%;
+  gap: 25px;
+}
+
+.footer-buttons .button {
+  padding: 14px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.footer-buttons .login-btn {
+  background-color: #d6d6d5;
+  color: black;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer-buttons .signup-btn {
+  background-color: #d9f40f;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.logo-container {
+  background-color: #502274;
+  width: 100%;
+  height: 80%;
+}
+
+.lastpage-logo {
+  background-color: #eebee7;
+  border-radius: 30px;
+  width: 90%;
+  height: 50%;
+  margin-left: 5%;
+}
+.lastpage-logo h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 13rem;
+  color: #512b82;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.flagimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.logo-container img {
+  width: 90px;
+}
+
+.logo-container p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: -20px;
 }
